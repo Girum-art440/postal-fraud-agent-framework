@@ -71,7 +71,7 @@ class DisputeResolutionAgent:
         
         return resolved_flag, recommended_action, evidence_package
 
-### 3.  Central Orchestrator (Coordinates all three)
+### 4.  Central Orchestrator (Coordinates all three)
 **Purpose:**  Orchestrate end‑to‑end workflow across agents and stakeholder boundaries.
 class Orchestrator:
     agents = [TransactionMonitor, RegHarmoniser, DisputeResolver]
